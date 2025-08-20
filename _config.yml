@@ -1,0 +1,16 @@
+# GitHub Pages Configuration
+theme: jekyll-theme-minimal
+title: "Quarterly Earnings Report - Q2 2025"
+description: "Interactive RevealJS presentation for financial stakeholders"
+
+# Enable GitHub Pages
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Site settings
+show_downloads: false
+github:
+  is_project_page: true

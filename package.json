@@ -1,0 +1,36 @@
+{
+  "name": "quarterly-earnings-presentation",
+  "version": "1.0.0",
+  "description": "Interactive RevealJS presentation for Q2 2025 financial earnings report",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx live-server --port=8080 --open=/index.html",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "echo 'Deployment handled by GitHub Actions'"
+  },
+  "keywords": [
+    "revealjs",
+    "presentation",
+    "financial",
+    "earnings",
+    "github-pages"
+  ],
+  "author": "Financial Analytics Team <23f2005402@ds.study.iitm.ac.in>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/[USERNAME]/quarterly-earnings-presentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/[USERNAME]/quarterly-earnings-presentation/issues"
+  },
+  "homepage": "https://[USERNAME].github.io/quarterly-earnings-presentation/",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

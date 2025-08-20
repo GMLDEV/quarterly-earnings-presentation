@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Quarterly Earnings Report - Q2 2025</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css">
+
+		<!-- Custom CSS -->
+		<style>
+			.reveal .slides section {
+				text-align: left;
+			}
+			.reveal h1, .reveal h2, .reveal h3 {
+				color: #2c3e50;
+				text-align: center;
+			}
+			.financial-metric {
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				color: white;
+				padding: 20px;
+				border-radius: 10px;
+				margin: 10px 0;
+				text-align: center;
+			}
+			.email-contact {
+				font-size: 0.8em;
+				color: #7f8c8d;
+				text-align: center;
+				margin-top: 20px;
+			}
+			.speaker-notes {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Title Slide -->
+				<section data-background-gradient="linear-gradient(to bottom, #283048, #859398)">
+					<h1 style="color: white;">Quarterly Earnings Report</h1>
+					<h3 style="color: #ecf0f1;">Q2 2025 Financial Performance</h3>
+					<p style="color: #bdc3c7; text-align: center;">
+						<small>Prepared by Financial Analytics Team</small>
+					</p>
+					<div class="email-contact" style="color: #ecf0f1;">
+						Contact: 23f2005402@ds.study.iitm.ac.in
+					</div>
+					<aside class="notes">
+						Welcome everyone to our Q2 2025 quarterly earnings presentation. 
+						Today we'll cover our financial performance, key metrics, and future outlook.
+						This presentation includes interactive elements and detailed analysis.
+					</aside>
+				</section>
+
+				<!-- Executive Summary -->
+				<section>
+					<h2>Executive Summary</h2>
+					<div class="fragment">
+						<div class="financial-metric">
+							<h3>Revenue Growth</h3>
+							<p>$2.4B (+15% YoY)</p>
+						</div>
+					</div>
+					<div class="fragment">
+						<div class="financial-metric">
+							<h3>Net Income</h3>
+							<p>$480M (+22% YoY)</p>
+						</div>
+					</div>
+					<div class="fragment">
+						<div class="financial-metric">
+							<h3>EPS</h3>
+							<p>$3.25 (+18% YoY)</p>
+						</div>
+					</div>
+					<aside class="notes">
+						Our Q2 performance exceeded expectations across all key metrics.
+						Revenue growth was driven by strong performance in our core business segments.
+						The 22% increase in net income reflects operational efficiency improvements.
+					</aside>
+				</section>
+
+				<!-- Markdown Slide -->
+				<section data-markdown>
+					<textarea data-template>
+						## Key Performance Indicators
+
+						### Financial Highlights
+						- **Total Assets**: $45.2B *(+8% QoQ)*
+						- **Return on Equity**: 14.2% *(+1.8% YoY)*
+						- **Cost-to-Income Ratio**: 58.3% *(-2.1% YoY)*
+
+						### Operational Metrics
+						- **Customer Acquisition**: 125K new accounts
+						- **Digital Adoption**: 78% of transactions
+						- **Employee Satisfaction**: 4.2/5.0
+
+						> *"This quarter demonstrates our commitment to sustainable growth and operational excellence."*
+						> 
+						> — Chief Financial Officer
+					</textarea>
+					<aside class="notes">
+						These KPIs show strong performance across both financial and operational dimensions.
+						Note the significant improvement in our cost-to-income ratio, indicating better efficiency.
+						Digital adoption continues to grow, supporting our technology transformation strategy.
+					</aside>
+				</section>
+
+				<!-- Financial Formulas -->
+				<section>
+					<h2>Financial Analysis & Formulas</h2>
+					<div class="fragment">
+						<h3>Return on Assets (ROA)</h3>
+						<p>$$ROA = \frac{\text{Net Income}}{\text{Total Assets}} = \frac{480M}{45.2B} = 1.06\%$$</p>
+					</div>
+					<div class="fragment">
+						<h3>Price-to-Earnings Ratio</h3>
+						<p>$$P/E = \frac{\text{Market Price per Share}}{\text{Earnings per Share}} = \frac{52.75}{3.25} = 16.23$$</p>
+					</div>
+					<div class="fragment">
+						<h3>Compound Annual Growth Rate</h3>
+						<p>$$CAGR = \left(\frac{\text{Ending Value}}{\text{Beginning Value}}\right)^{\frac{1}{\text{Number of Years}}} - 1$$</p>
+					</div>
+					<aside class="notes">
+						Our ROA of 1.06% is above industry average, showing efficient asset utilization.
+						The P/E ratio of 16.23 indicates fair valuation relative to earnings.
+						CAGR formula will be used for our 5-year growth projections in the next slide.
+					</aside>
+				</section>
+
+				<!-- Code Sample -->
+				<section>
+					<h2>Risk Assessment Algorithm</h2>
+					<p>Our proprietary risk scoring system:</p>
+					<pre class="fragment"><code class="python" data-trim data-noescape>
+def calculate_risk_score(portfolio):
+    """
+    Calculate comprehensive risk score for portfolio
+    """
+    # Market risk component
+    market_risk = portfolio.beta * market_volatility
+    
+    # Credit risk assessment
+    credit_risk = sum([
+        loan.probability_default * loan.exposure_at_default 
+        for loan in portfolio.credit_exposures
+    ])
+    
+    # Liquidity risk factor
+    liquidity_risk = portfolio.illiquid_assets / portfolio.total_assets
+    
+    # Combined risk score (0-100 scale)
+    risk_score = (
+        0.4 * market_risk + 
+        0.4 * credit_risk + 
+        0.2 * liquidity_risk
+    ) * 100
+    
+    return min(risk_score, 100)  # Cap at 100
+					</code></pre>
+					<div class="fragment">
+						<p><strong>Current Portfolio Risk Score: 23.5</strong> (Low-Medium Risk)</p>
+					</div>
+					<aside class="notes">
+						This algorithm integrates multiple risk factors into a single score.
+						Market risk uses our portfolio beta against market volatility.
+						Credit risk aggregates individual loan default probabilities.
+						Our current score of 23.5 indicates well-managed risk exposure.
+					</aside>
+				</section>
+
+				<!-- Animated Chart Data -->
+				<section>
+					<h2>Revenue Breakdown by Segment</h2>
+					<div style="display: flex; justify-content: space-around; align-items: center; height: 400px;">
+						<div class="fragment" style="text-align: center;">
+							<h3>Retail Banking</h3>
+							<div style="width: 100px; height: 200px; background: linear-gradient(to top, #3498db 60%, #ecf0f1 40%); margin: 0 auto; border-radius: 5px;">
+							</div>
+							<p>$1.44B (60%)</p>
+						</div>
+						<div class="fragment" style="text-align: center;">
+							<h3>Corporate</h3>
+							<div style="width: 100px; height: 150px; background: linear-gradient(to top, #e74c3c 75%, #ecf0f1 25%); margin: 0 auto; border-radius: 5px;">
+							</div>
+							<p>$0.72B (30%)</p>
+						</div>
+						<div class="fragment" style="text-align: center;">
+							<h3>Investment</h3>
+							<div style="width: 100px; height: 100px; background: linear-gradient(to top, #f39c12 100%, #ecf0f1 0%); margin: 0 auto; border-radius: 5px;">
+							</div>
+							<p>$0.24B (10%)</p>
+						</div>
+					</div>
+					<aside class="notes">
+						Retail banking continues to be our largest revenue driver at 60%.
+						Corporate banking showed strong growth this quarter, up 12% from Q1.
+						Investment services, while smallest, had the highest margin at 35%.
+					</aside>
+				</section>
+
+				<!-- Future Outlook -->
+				<section data-background-color="#2c3e50">
+					<h2 style="color: white;">Future Outlook & Strategy</h2>
+					<div class="fragment">
+						<h3 style="color: #ecf0f1;">Q3 2025 Projections</h3>
+						<ul style="color: #bdc3c7;">
+							<li class="fragment">Revenue Target: $2.6B (+8.3% QoQ)</li>
+							<li class="fragment">Digital Transformation Investment: $150M</li>
+							<li class="fragment">New Market Entry: Asia-Pacific Region</li>
+							<li class="fragment">Regulatory Capital Ratio: Maintain >12%</li>
+						</ul>
+					</div>
+					<div class="fragment" style="margin-top: 30px;">
+						<h3 style="color: #ecf0f1;">Strategic Initiatives</h3>
+						<p style="color: #bdc3c7;">Focus on sustainable growth, technology innovation, and customer experience enhancement.</p>
+					</div>
+					<aside class="notes">
+						Our Q3 projections are conservative but achievable based on current market conditions.
+						The $150M digital investment will enhance our mobile platform and AI capabilities.
+						Asia-Pacific expansion represents a significant growth opportunity.
+						Maintaining strong capital ratios ensures regulatory compliance and financial stability.
+					</aside>
+				</section>
+
+				<!-- Q&A Slide -->
+				<section>
+					<h1>Questions & Discussion</h1>
+					<div style="text-align: center; margin-top: 50px;">
+						<p>Thank you for your attention</p>
+						<div class="email-contact">
+							<p>For follow-up questions or detailed analysis:</p>
+							<p><strong>23f2005402@ds.study.iitm.ac.in</strong></p>
+						</div>
+					</div>
+					<div class="fragment" style="margin-top: 40px; text-align: center;">
+						<p><em>Supplementary materials and detailed financial statements are available in the appendix</em></p>
+					</div>
+					<aside class="notes">
+						Thank you for attending today's earnings presentation.
+						Please feel free to reach out with any questions or requests for additional data.
+						The appendix contains detailed breakdowns of all financial metrics discussed today.
+						Next quarterly presentation is scheduled for November 15th, 2025.
+					</aside>
+				</section>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.js"></script>
+
+		<script>
+			// Initialize Reveal.js
+			Reveal.initialize({
+				hash: true,
+				transition: 'slide',
+				transitionSpeed: 'default',
+				backgroundTransition: 'fade',
+				
+				// Enable speaker notes
+				showNotes: false,
+				
+				// Plugin configuration
+				plugins: [ 
+					RevealMarkdown, 
+					RevealHighlight, 
+					RevealNotes,
+					RevealMath.KaTeX
+				],
+				
+				// Math plugin configuration
+				math: {
+					mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					// pass other options into `MathJax.Hub.Config()`
+					TeX: { 
+						Macros: { 
+							RR: "{\\bf R}",
+							bold: ["{\\bf #1}", 1]
+						} 
+					}
+				}
+			});
+
+			// Custom animations
+			Reveal.on('slidechanged', event => {
+				// Add custom animations or tracking here
+				console.log('Slide changed to:', event.indexh);
+			});
+		</script>
+	</body>
+</html>
