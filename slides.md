@@ -25,14 +25,15 @@ Maintainable documentation slides built with Marp.
 
 ---
 
-<!-- _backgroundImage: "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1600&auto=format&fit=crop" -->
-<!-- _color: #ffffff -->
+![bg opacity:0.25](https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1600&auto=format&fit=crop)
+
 <!-- _class: invert -->
+<!-- _color: #ffffff -->
 <!-- style: "h1{color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.5)}" -->
 
 # Beautiful Backgrounds
 
-This slide demonstrates a background image with inverted text colors.
+This slide demonstrates a background image using Marp's `![bg]` syntax with inverted text colors.
 
 ---
 
