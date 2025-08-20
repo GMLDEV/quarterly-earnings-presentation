@@ -102,12 +102,12 @@ Example: `https://[YOUR_USERNAME].github.io/quarterly-earnings-presentation/?v=1
 - **ESC**: Slide overview
 - **B**: Black screen (pause)
 
-## 📊 Sample GitHub Pages URLs
+## 📊 Your GitHub Pages URL
 
-Based on common username patterns:
-- `https://john-doe.github.io/quarterly-earnings-presentation/`
-- `https://gagan123.github.io/quarterly-earnings-presentation/`
-- `https://your-username.github.io/quarterly-earnings-presentation/`
+Your presentation is now live at:
+- **Primary URL**: `https://gmldev.github.io/quarterly-earnings-presentation/`
+- **Repository**: https://github.com/GMLDEV/quarterly-earnings-presentation
+- **With cache busting**: `https://gmldev.github.io/quarterly-earnings-presentation/?v=1`
 
 ## ⏰ Deployment Timeline
 
