@@ -6,14 +6,11 @@
 
 		<title>Quarterly Earnings Report - Q2 2025</title>
 
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css">
-		
-		<!-- Additional highlight.js for better syntax support -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/monokai.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css">
 
 		<!-- Custom CSS -->
 		<style>
@@ -129,6 +126,13 @@
 						> 
 						> — Chief Financial Officer
 
+						### Sample Code Block
+						```python
+						# Financial calculation example
+						revenue_growth = (current_revenue - previous_revenue) / previous_revenue * 100
+						print(f"Revenue growth: {revenue_growth:.1f}%")
+						```
+
 						---
 						**Contact**: 23f2005402@ds.study.iitm.ac.in
 					</textarea>
@@ -165,7 +169,7 @@
 				<section>
 					<h2>Financial Data Query</h2>
 					<p>SQL query for quarterly earnings analysis:</p>
-					<pre class="fragment"><code class="language-sql hljs sql" data-trim data-noescape>
+					<pre class="fragment"><code class="sql" data-trim data-line-numbers>
 -- Quarterly earnings analysis with year-over-year comparison
 SELECT 
     quarter,
@@ -195,7 +199,7 @@ ORDER BY quarter DESC;
 				<section>
 					<h2>Risk Assessment Algorithm</h2>
 					<p>Our proprietary risk scoring system:</p>
-					<pre class="fragment"><code class="language-python hljs python" data-trim data-noescape>
+					<pre class="fragment"><code class="python" data-trim data-line-numbers>
 def calculate_risk_score(portfolio):
     """
     Calculate comprehensive risk score for portfolio
@@ -236,7 +240,7 @@ def calculate_risk_score(portfolio):
 				<section>
 					<h2>Portfolio Analytics Dashboard</h2>
 					<p>Interactive dashboard JavaScript code:</p>
-					<pre class="fragment"><code class="language-javascript hljs javascript" data-trim data-noescape>
+					<pre class="fragment"><code class="javascript" data-trim data-line-numbers>
 // Real-time portfolio performance calculator
 class PortfolioAnalytics {
     constructor(portfolioData) {
@@ -353,11 +357,11 @@ class PortfolioAnalytics {
 			</div>
 		</div>
 
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
 
 		<script>
 			// Initialize Reveal.js
@@ -378,10 +382,10 @@ class PortfolioAnalytics {
 					RevealMath.KaTeX
 				],
 				
-				// Highlight.js configuration for better syntax highlighting
+				// Configure syntax highlighting
 				highlight: {
 					highlightOnLoad: true,
-					escapeHTML: false
+					theme: 'monokai'
 				},
 				
 				// Math plugin configuration
