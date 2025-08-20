@@ -51,6 +51,27 @@ An interactive RevealJS presentation for Q2 2025 financial earnings report, desi
 - LaTeX/KaTeX rendering
 
 ### Speaker Notes
+## 📚 Marp Product Documentation Deck
+
+Slides source: `slides.md` using a custom theme `themes/product-docs.css`.
+
+- Email included: `23f2005402@ds.study.iitm.ac.in`
+- Custom theme via `theme: product-docs`
+- Page numbers drawn from CSS `data-marpit-pagination`
+- Background image slide via Marp directives
+- Custom styling via inline `style:` directives
+- Math equations using LaTeX
+
+Raw GitHub URL (replace with your username if different):
+
+`https://raw.githubusercontent.com/GMLDEV/quarterly-earnings-presentation/main/slides.md`
+
+### Convert locally (optional)
+
+- HTML: `npm run marp:html`
+- PDF: `npm run marp:pdf`
+- PPTX: `npm run marp:pptx`
+
 - Comprehensive presentation guidance
 - Context for each slide
 - Speaking points and explanations

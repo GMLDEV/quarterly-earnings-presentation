@@ -4,10 +4,13 @@
   "description": "Interactive RevealJS presentation for Q2 2025 financial earnings report",
   "main": "index.html",
   "scripts": {
-    "start": "npx http-server . -p 8080 -o",
-    "dev": "npx live-server --port=8080 --open=/index.html",
-    "build": "echo 'Static site - no build required'",
-    "deploy": "echo 'Deployment handled by GitHub Actions'"
+  "start": "npx http-server . -p 8080 -o",
+  "dev": "npx live-server --port=8080 --open=/index.html",
+  "build": "echo 'Static site - no build required'",
+  "deploy": "echo 'Deployment handled by GitHub Actions'",
+  "marp:html": "npx @marp-team/marp-cli slides.md -o slides.html",
+  "marp:pdf": "npx @marp-team/marp-cli slides.md -o slides.pdf",
+  "marp:pptx": "npx @marp-team/marp-cli slides.md -o slides.pptx"
   },
   "keywords": [
     "revealjs",
@@ -28,7 +31,8 @@
   "homepage": "https://[USERNAME].github.io/quarterly-earnings-presentation/",
   "devDependencies": {
     "http-server": "^14.1.1",
-    "live-server": "^1.2.2"
+  "live-server": "^1.2.2",
+  "@marp-team/marp-cli": "^3.4.0"
   },
   "engines": {
     "node": ">=14.0.0"
