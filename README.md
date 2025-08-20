@@ -72,6 +72,26 @@ Raw GitHub URL (replace with your username if different):
 - PDF: `npm run marp:pdf`
 - PPTX: `npm run marp:pptx`
 
+## 📊 Marimo Interactive Data Analysis Notebook
+
+Interactive notebook source: `analysis.py` using Marimo framework.
+
+- Email included: `23f2005402@ds.study.iitm.ac.in`
+- Two cells with variable dependencies (sliders → dataset → analysis)
+- Interactive slider widgets (sample size & noise level)
+- Dynamic markdown output based on widget state  
+- Documented data flow between cells via comments
+
+Raw GitHub URL:
+`https://raw.githubusercontent.com/GMLDEV/quarterly-earnings-presentation/main/analysis.py`
+
+### Run locally (optional)
+
+```bash
+pip install -r requirements.txt
+marimo run analysis.py
+```
+
 - Comprehensive presentation guidance
 - Context for each slide
 - Speaking points and explanations
